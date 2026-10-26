@@ -1,0 +1,145 @@
+header{
+ background-image: 
+ linear-gradient(rgba(31, 42, 68, 0.8), rgba(31, 42, 68, 0.8)),
+ url(images/habits.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    min-height: 500px;
+    
+}
+a{
+    color: white;
+    padding: 60px;
+    text-decoration: none;
+}
+#accueil{
+    background-color: antiquewhite;
+}
+#Produits{
+    background-color: antiquewhite;
+
+
+
+}
+main{
+    background-color: antiquewhite;
+}
+.ecrit{
+    text-align: center;
+}
+footer{
+    background-color: antiquewhite;
+   
+}
+.produit img {
+
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    
+}
+.produit:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) ;
+}
+#catalogue{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    padding: 24px ;
+    margin: 0 auto;
+}
+.image{
+    font-size: large;
+    padding: 30px;
+}
+
+h1{
+    color: whitesmoke;
+}
+.millieu{
+    text-align: center;
+    height: 20px;
+    font-size: large;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+.contacts{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    justify-content: center;
+    background-color: #1f2a44;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.contacts a{
+    display: inline-flex;
+    text-decoration: none;
+    border: 1px solid #f3f6f8;
+    border-radius: 999px;
+    margin: 5px;
+    padding: 15px;
+
+}
+.bas{
+    text-align: center;
+    color: white;
+}
+.dernier{
+    background-color: #1f2a44;
+    padding: 20px 0;
+}
+.haut{
+    border-radius: 20px;
+    margin: 0;
+}
+header > p{
+    color: #faebd7;
+}
+.coll{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    border-radius: 999px;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 30px;
+}
+.produit{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.boutton{
+    border-radius: 20px;
+    background-color: #1f2a44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+
+}
+.produit > p{
+    color: #c8651b;
+    margin: 10px;
+}
+.produit > h3{
+    margin: 10px;
+}
